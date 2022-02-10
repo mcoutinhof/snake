@@ -10,10 +10,10 @@ Esse algoritmo, apenas com a primeira otimização, conseguiu *zerar* o jogo em 
 
 ### Compilando
 É necessário que você tenha a biblioteca SDL2 instalada. No Ubuntu (e derivados), podemos usar o seguinte comando:  
-```sudo apt install libsdl2-dev```
+```sudo apt install libsdl2-dev -y```
 
 Para compilar com o **g++**, use o seguinte comando:  
-```g++ -std=c++11 -o snake main.c -lSDL2```
+```g++ -std=c++11 -o snake main.cpp -lSDL2```
 
 ### Comandos
 <kbd>Espaço</kbd> para acelerar o jogo.  
