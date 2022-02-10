@@ -13,7 +13,7 @@ Esse algoritmo, apenas com a primeira otimização, conseguiu *zerar* o jogo em 
 ```sudo apt install libsdl2-dev -y```
 
 Para compilar com o **g++**, use o seguinte comando:  
-```g++ -std=c++11 -o snake main.cpp -lSDL2```
+```g++ -std=c++11 main.cpp -lSDL2 -o snake```
 
 ### Comandos
 <kbd>Espaço</kbd> para acelerar o jogo.  
